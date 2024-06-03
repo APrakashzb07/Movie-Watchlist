@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ResultCard from '../ResultCard';
 
+
 export const Add = () => {
   const [query, setQuery] = useState("");
   const [search, setSearch] = useState([]);
